@@ -21,7 +21,8 @@ main(List<String> rawArgs) {
 
 class GroupCommand extends Command {
   final name = 'group';
-  final description = 'groups code size by package, library or path';
+  final description =
+      'groups code size by dot-separated library sub-name convention';
 
   GroupCommand() {
   }
